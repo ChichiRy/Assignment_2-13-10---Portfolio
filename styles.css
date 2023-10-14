@@ -1,9 +1,21 @@
 body{
-    background-image: url("https://www.nasa.gov/wp-content/uploads/2023/03/gpn-2001-000014.jpg");
+    /*background-image: url("https://www.nasa.gov/wp-content/uploads/2023/03/gpn-2001-000014.jpg");*/
     /*background-image: url("images/gpn-2001-000014.webp");*/
-
+    /*background-image: url("images/mostafa-mahmoudi-47jO5Y8nsYo-unsplash.jpg");
+    background-size: auto;*/
+    background-color: #010517;
+    background-image: radial-gradient();
 }
 
-nav.navbar{
-    background-color: black;
+
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #0b22be;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgb(27, 35, 255), rgba(37, 117, 252, 0.9));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgb(79, 4, 4), rgb(0, 1, 51));
 }
