@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-
     <h1>Welcome to a <span class="title_one">world</span> of <span class="title_two">possibilities.</span></h1>
 
-    <div class="container-fluid">
+    <div class="container-fluid me">
         <div>
             <h2>Who am I?</h2>
             <p class="me">I am Ryan Chironga, a tech enthusiast who wishes he had all the time in the world to explore
@@ -18,24 +18,26 @@
                 <span>wonderful world</span> of possibilities.</p>
         </div>
     </div>
-    <div>
+    <div class="container-fluid interests">
         <h2>...okay, you seem really interested...</h2>
             <p class="interests">Yes, I really really am. From programming to AI&ML to networking to hardware to
             policy... really <span>virtually anything</span> with some tech in it. I'd say, if IEEE were to be a
             person, I might as well be him :)</p>
     </div>
-    <div>
-        <h3>What have you studied?</h3>
-        <p class="education">Currently, I am pursuing a Bachelor's in Electrical and Electronics Engineering
-            <span>(B.Sc. EEE)</span> at the University of Nairobi, Nairobi, Kenya. I have also pursued my interests,
-            as listed in my CV available upon request.</p>
+    <div class="main container-fluid">
+        <div class="container-fluid edu">
+            <h3>What have you studied?</h3>
+            <p class="education">Currently, I am pursuing a Bachelor's in Electrical and Electronics Engineering
+                <span>(B.Sc. EEE)</span> at the University of Nairobi, Nairobi, Kenya. I have also pursued my interests,
+                as listed in my CV available upon request.</p>
+        </div>
+        <div class="container-fluid work_exp">
+            <h3>...nice, and work experience?</h3>
+            <p class="work">...unfortunately, this area is still under development. However, it will be updated
+                periodically, so keep a lookout.</p>
+        </div>
     </div>
-    <div>
-        <h3>...nice, and work experience?</h3>
-        <p class="work">...unfortunately, this area is still under development. However, it will be updated
-        periodically, so keep a lookout.</p>
-    </div>
-    <div>
+    <div class="container-fluid honors">
         <h4>Any major honours you'd wish to cite?</h4>
         <p class="honors">Actually, yes. A couple include:</p>
         <ul>
@@ -47,10 +49,11 @@
         </ul>
         <p class="honors_2">See my CV for a complete list.</p>
     </div>
-    <div class="prof_dev">
-        <h4>Any certifications?</h4>
-        <p class="certs">
-            I'm officially certified as follows:
+    <div class="main container-fluid">
+        <div class="prof_dev container-fluid">
+            <h4>Any certifications?</h4>
+            <p class="certs">
+                I'm officially certified as follows:
             <ul>
                 <li>Huawei Certified ICT Associate (HCIA) Datacom</li>
                 <li>Huawei Certified ICT Associate (HCIA) Security</li>
@@ -64,27 +67,28 @@
                 <li>Market analysis (WorldQuant BRAIN)</li>
                 <li>Electrical installation and AutoCAD design</li>
             </ul>
-        </p>
+            </p>
+        </div>
+        <div class="programming container-fluid">
+            <p class="programming">I'm competent in the following programming languages: </p>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>HTML/CSS</li>
+                <li>Visual Basic</li>
+                <li>Verilog</li>
+                <li>JavaScript</li>
+            </ul>
+            In addition, I have learnt Django and Bootstrap frameworks, along with scikit-learn and tensorflow.
+        </div>
     </div>
-    <div class="programming">
-        <p class="programming">I'm competent in the following programming languages: </p>
-        <ul>
-            <li>Python</li>
-            <li>C++</li>
-            <li>HTML/CSS</li>
-            <li>Visual Basic</li>
-            <li>Verilog</li>
-            <li>JavaScript</li>
-        </ul>
-        In addition, I have learnt Django and Bootstrap frameworks, along with scikit-learn and tensorflow.
-    </div>
-    <div class="projects">
+    <div class="projects container-fluid">
         <h3 class="projects">Any projects?</h3>
         <p class="projects">I'm currently involved in the creation of a lecturer/teacher ranking website
         designed to aid the feedback loop in educational institutions among other uses. I'm also in the
         early stages of creating a web platform for a student organisation.</p>
     </div>
-    <div class="prof_bod">
+    <div class="prof_bod container-fluid">
         <h3 class="prof_bod">Any professional links?</h3>
         <p class="prof_bod">I'm currently a member of:
         <ul>
@@ -95,21 +99,64 @@
         among others.</p>
     </div>
     <!--check on the form from the first assignment (Apex Softwares). Map=UoN American Wing. CV also-->
-    <div class="contact">
-        <h2 class="contact">Contact Me</h2>
-        <form action="" class="form-action">
-
-        </form>
+    <div class="main container-fluid">
+        <h2 class="contact container-fluid">Contact Me</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Where you can find me</i></h2>
+                        <div>
+                            <p><iframe width="600" height="380" allowfullscreen="" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8243609161505!2d36.8174121!3d-1.2789525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f172ce7646fa3%3A0xb1e4c74a23e8ff21!2sAmerican%20Wing!5e0!3m2!1sen!2ske!4v1697378630196!5m2!1sen!2ske"></iframe></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 style="margin-left: 15px">Send me a message</h2>
+                        <div class="send_message">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form_group">
+                                            <input type="text" class="form-control" id="name" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form_group">
+                                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form_group">
+                                            <input type="number" class="form-control" id="number" placeholder="Phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form_group">
+                                            <input type="text" class="form-control" placeholder="Subject" id="subject" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <textarea class="form-control" placeholder="Message" id="Message" rows="3"
+                                          required></textarea>
+                                <button class="btn btn-style2 text">
+                                    Submit
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <p class="CV">If you'd also like a copy of my CV, please get in touch as above.</p>
     </div>
 
-    <div class="companies">
+    <div class="companies container-fluid">
         <!--include company logos that I've worked with-->
         <p>Huawei <br> Cisco <br> CyberTalents <br> UoN <br> IEEE <br> eMobilis <br> WorldQuant <br> CA</p>
     </div>
 
     <!--Closing bar-->
-    <div class="closing">
+    <div class="closing container-fluid">
 
     </div>
 
