@@ -5,6 +5,7 @@ body{
     background-size: auto;*/
     background-color: #010517;
     background-image: radial-gradient();
+    color: whitesmoke;
 }
 
 .gradient-custom {
@@ -18,10 +19,6 @@ body{
   background: linear-gradient(to right, rgb(79, 4, 4), rgb(0, 1, 51));
 }
 
-body{
-    color: whitesmoke;
-}
-
 iframe{
     background-color: #010517;
     border-radius: 25px;
@@ -29,22 +26,35 @@ iframe{
     border-color: #010517;
     border-style: solid;
 }
-
-.form-control{
-    background-color: dimgrey;
-    color: white;
-}
-
 .form-control::placeholder{
     color: whitesmoke;
+}
+
+button.accordion-button{
+    color: whitesmoke;
+    background-color: #222227;
+}
+
+.accordion-body{
+    background-color: #222227;
+    color: whitesmoke;
+}
+
+.carousel_slide{
+    padding-top: 50px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 25px;
+    background-color: #010517;
+    background-clip: padding-box;
+    border-radius: 12px;
 }
 
 .send_message {
     border: 1px solid #222227;
     border-radius: 12px;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     height: 380px;
-    margin-left: 50px;
 }
 
 .form-control{
@@ -60,7 +70,6 @@ iframe{
     transition: border-color .15s ease-in-out,
                 box-shadow .15s ease-in-out;
     height: 50px;
-    caret-color: white;
 }
 
 .form-control:focus{
@@ -69,7 +78,7 @@ iframe{
 }
 
 textarea.form-control{
-    height: 120px;
+    height: 100px;
 }
 
 .main{
@@ -85,7 +94,7 @@ textarea.form-control{
     background: linear-gradient(to left, transparent 50%, white 50%)
                 right bottom;
     background-size: 200% 100%;
-    padding: 0 15px 0 20px;
+    padding: 0 15px 0 15px;
     border: 1px solid #fff;
     border-radius: 50px;
     font-size: 15px;
