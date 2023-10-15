@@ -4,8 +4,9 @@ body{
     /*background-image: url("images/mostafa-mahmoudi-47jO5Y8nsYo-unsplash.jpg");
     background-size: auto;*/
     background-color: #010517;
-    background-image: radial-gradient();
+    /*background-image: radial-gradient();*/
     color: whitesmoke;
+    scroll-behavior: smooth;
 }
 
 .gradient-custom {
@@ -104,6 +105,36 @@ textarea.form-control{
     transition: all .3s cubic-bezier(.4,0,.2,1);
     -webkit-transition: .3s cubic-bezier(.4,0,.2,1);
     min-width: 150px;
+    position: relative;
+}
+
+.btn.btn-style2:before{
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 10%;
+    background-color: whitesmoke;
+    width: 2%;
+    height: 1px;
+    transition:all 0.3s ease 0s;
+}
+
+.btn.btn-style2:after{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    right: 10%;
+    background-color: whitesmoke;
+    width: 2%;
+    height: 1px;
+    transition:all 0.3s ease 0s;
+}
+
+.btn:hover:before,
+.btn:hover:after,
+.btn.active:before,
+.btn.active:after{
+    width: 80%;
 }
 
 .btn.btn-style2:hover{
@@ -124,4 +155,9 @@ textarea.form-control{
     transition: all .6s ease-out;
     display: block;
     background-position: left bottom;
+}
+
+.svg{
+    padding-left: 10px;
+    padding-right: 10px;
 }
