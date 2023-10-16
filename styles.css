@@ -114,7 +114,7 @@ textarea.form-control{
     top: -3px;
     left: 10%;
     background-color: whitesmoke;
-    width: 2%;
+    width: 1%;
     height: 1px;
     transition:all 0.3s ease 0s;
 }
@@ -125,7 +125,7 @@ textarea.form-control{
     bottom: -3px;
     right: 10%;
     background-color: whitesmoke;
-    width: 2%;
+    width: 1%;
     height: 1px;
     transition:all 0.3s ease 0s;
 }
