@@ -15,17 +15,17 @@
     </nav>
     <nav class="navbar sticky-top bg-dark gradient-custom navbar-expand-lg bg-body-tertiary" style="--bs-bg-opacity: .5;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#Home">Home</a>
+        <a class="navbar-brand" style="color: white;" href="#Home">Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#about">About</a>
+              <a class="nav-link active" aria-current="page" style="color: white;" href="#about">About</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" style="color: white;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Check these out
               </a>
               <ul class="dropdown-menu">
@@ -55,15 +55,12 @@
       </div>
     </nav>
       <section id="hero" class="d-flex flex-column justify-content-center">
-        <div class="container aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+        <div class="container aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100" id="Home">
           <h1>Welcome to a World of Possibilities!</h1><br><br>
             <h2>Ryan Chironga</h2>
-          <p>I'm a <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Photographer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true">|</span></p>
+          <p><span class="typed" data-typed-items="Designer, Developer, Electrical Engineer">Electrical engineer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true">|</span></p>
         </div>
       </section>
-    <div class="container-fluid container-md-3 header" id="Home">
-        <h1>Welcome to a <span class="title_one">world</span> of <span class="title_two">possibilities</span></h1>
-    </div>
     <div class="container-fluid me" id="me">
         <div>
             <h2>Who am I?</h2>
@@ -176,21 +173,40 @@
         </div>
     </div>
     <div class="projects container-fluid" id="projects">
-        <h3 class="projects">Any projects?</h3>
-        <p class="projects">I'm currently involved in the creation of a lecturer/teacher ranking website
-        designed to aid the feedback loop in educational institutions among other uses. I'm also in the
-        early stages of creating a web platform for a student organisation.</p>
+        <h3 class="projects" style="text-autospace: ideograph-alpha; margin-left: 16%; padding: 2%">Any projects?</h3>
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img class="flip-card-img" src="/images/lec.png" alt="LecMeter" style="width:612px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <p class="projects" style="padding: 4%">I'm currently involved in the creation of a lecturer/teacher ranking website
+                                designed to aid the feedback loop in educational institutions among other uses. <br><br>
+                            I'm also in the early stages of creating a web platform for a student organisation.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="prof_bod container-fluid">
+                    <h3 class="prof_bod">Any professional links?</h3>
+            <!--<figure>-->
+            <!--<img src="https://picsum.photos/id/287/250/300" alt="Mountains">-->
+            <!--<figcaption>The Day</figcaption>-->
+            <!--</figure>-->
+                    <p class="prof_bod">I'm currently a member of:
+                        <ul>
+                            <li>University of Nairobi Engineering Students Association</li>
+                            <li>Society of Electrical Engineering Students(SEES-UoN) - Admin. Sec.</li>
+                            <li>IEEE University of Nairobi Student Body - Admin. Sec, Webmaster, Executive Committee</li>
+                        </ul>
+                    among others.</p>
+                </div>
+            </div>
     </div>
-    <div class="prof_bod container-fluid">
-        <h3 class="prof_bod">Any professional links?</h3>
-        <p class="prof_bod">I'm currently a member of:
-            <ul>
-                <li>University of Nairobi Engineering Students Association</li>
-                <li>Society of Electrical Engineering Students(SEES-UoN) - Admin. Sec.</li>
-                <li>IEEE University of Nairobi Student Body - Admin. Sec, Webmaster, Executive Committee</li>
-            </ul>
-        among others.</p>
-    </div>
+
     <!--check on the form from the first assignment (Apex Softwares). Map=UoN American Wing. CV also-->
     <div class="main container-fluid" id="contact">
         <h2 class="contact container-fluid">Contact Me</h2>
@@ -289,7 +305,7 @@
 
     <!--Closing bar-->
     <div class="closing container-fluid main" style="height: 15px; text-align: center; padding-bottom: 3%">
-        <p>@Ryan Chironga 2023</p>
+        <p>@Ryan Chironga 2023. All rights reserved.</p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
